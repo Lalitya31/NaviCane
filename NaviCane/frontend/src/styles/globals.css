@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Space+Grotesk:wght@400;600&family=JetBrains+Mono:wght@400;600&display=swap');
 
 :root { font-family: 'Inter', sans-serif; }
@@ -10,5 +11,30 @@ body { margin:0; background: var(--bg); color: var(--text); }
 .sensor-label { color: var(--muted); font-size:12px }
 .sensor-value { font-family: 'JetBrains Mono', monospace; font-size:18px }
 .alerts-list { list-style:none; padding:0; margin:0 }
-.alert-item { padding:8px 0; border-bottom:1px dashed rgba(255,255,255,0.03) }
+.alert-item { padding:8px 0; border-bottom:1px dashed rgba(15,23,42,0.06) }
 .muted { color: var(--muted) }
+
+/* Landing specific */
+.landing-page { display:flex; gap:32px; align-items:center; justify-content:center; padding:40px }
+.landing-hero { display:flex; flex-direction:column; align-items:center }
+.logo-circle { width:120px; height:120px; border-radius:60px; display:flex; align-items:center; justify-content:center; background: linear-gradient(135deg, var(--accent), #FF7A18); color:white; font-size:48px; font-weight:700 }
+.product-name { margin-top:12px; font-size:24px; font-family:'Space Grotesk', sans-serif; color:var(--text) }
+
+.landing-auth { min-width:320px }
+
+.auth-box { background: var(--panel); padding:16px; border-radius:8px; box-shadow: 0 6px 18px rgba(15,23,42,0.04) }
+.auth-box input { width:100%; padding:10px; margin:8px 0; border:1px solid rgba(15,23,42,0.06); border-radius:6px }
+.btn { display:inline-block; padding:10px 14px; border-radius:8px; background:var(--accent); color:white; border:none; cursor:pointer }
+
+/* SOS button */
+.sos-btn { background: var(--alert); color:white; border-radius:12px; padding:16px 22px; font-weight:800; font-size:18px; border:none }
+
+/* Bottom nav */
+.bottom-nav { display:flex; justify-content:space-around; padding:12px 0; border-top:1px solid rgba(15,23,42,0.04); background: transparent }
+.bottom-nav button { background:transparent; border:none; color:var(--muted); font-weight:600 }
+
+/* Small helpers */
+.status-circle { width:98px; height:98px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:700 }
+.status-green { background: rgba(34,197,94,0.12); color: var(--success) }
+.status-orange { background: rgba(251,146,60,0.12); color: var(--accent) }
+.status-red { background: rgba(239,68,68,0.12); color: var(--alert) }
