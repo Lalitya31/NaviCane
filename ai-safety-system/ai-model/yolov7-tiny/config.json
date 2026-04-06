@@ -1,0 +1,5 @@
+{
+  "model": "yolov7-tiny",
+  "format": "onnx",
+  "note": "Placeholder config for on-device model. Replace with real model metadata."
+}

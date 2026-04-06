@@ -1,0 +1,7 @@
+export const CONFIG = {
+  DEVICE_IP: '192.168.0.101',
+  RTSP_URL: 'rtsp://192.168.0.101:8554/live',
+  CLOUD_ENABLED: false,
+  FIREBASE_URL: '',
+  DISTANCE_THRESHOLD: 30
+}

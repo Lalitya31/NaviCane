@@ -1,0 +1,35 @@
+:root {
+  --bg: #0F172A;
+  --panel: #111827;
+  --accent: #22C55E;
+  --alert: #EF4444;
+  --highlight: #38BDF8;
+  --text: #E5E7EB;
+  --muted: #64748B;
+}
+
+.panel {
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  border: 1px solid rgba(255,255,255,0.03);
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(2,6,23,0.6);
+}
+
+.video-placeholder {
+  height: 360px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background: rgba(255,255,255,0.02);
+  border-radius: 6px;
+  color: var(--muted);
+}
+
+.status-badge.active { color: var(--accent); }
+.status-badge.inactive { color: var(--muted); }
+
+.alert-item.critical { color: var(--alert); }
+
+.navbar { background: transparent; padding: 12px 20px; display:flex; justify-content:space-between; align-items:center; }
+.brand { font-weight:700 }
