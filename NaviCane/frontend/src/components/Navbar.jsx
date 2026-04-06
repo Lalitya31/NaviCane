@@ -4,7 +4,7 @@ import StatusBadge from './StatusBadge'
 const Navbar = () => {
   return (
     <header className="navbar">
-      <div className="brand">AI Safety System</div>
+      <div className="brand">NaviCane</div>
       <nav>
         <StatusBadge active={true} />
       </nav>
